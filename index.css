@@ -252,6 +252,7 @@ main footer .link {
   color: black;
 }
 main footer .link:hover {
+  text-decoration: none;
   color: #809BCE;
 }
 main footer p {
@@ -332,6 +333,7 @@ main footer p:hover {
   color: black;
 }
 .centerinfo .more .linkto a:hover {
+  text-decoration: none;
   color: #809BCE;
 }
 .centerinfo .more .contact {

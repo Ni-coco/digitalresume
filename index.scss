@@ -235,6 +235,7 @@ main {
             margin: 1vh;
             color: black;
             &:hover {
+                text-decoration: none;
                 color:#809BCE;
             }
         }
@@ -307,6 +308,7 @@ main {
             a {
                 color: black;
                 &:hover {
+                    text-decoration: none;
                     color:#809BCE;
                 }
             }
