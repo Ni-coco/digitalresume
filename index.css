@@ -357,6 +357,13 @@ main footer p:hover {
     grid-row: 2;
   }
 }
+.centerinfo .more .contact .to {
+  color: black;
+}
+.centerinfo .more .contact .to:hover {
+  color: #809BCE;
+  text-decoration: none;
+}
 .centerinfo .more .profilepic {
   width: 20vw;
   display: flex;
