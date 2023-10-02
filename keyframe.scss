@@ -1,0 +1,44 @@
+@keyframes gradient {
+    0% { background-position: 200% 50%; }
+    100% { background-position: -100% 50%; }
+}
+
+@keyframes sizeupS {
+    0% { width: 45vw; height: 35vh; }
+    100% { width: fit-content; height: fit-content; padding: 2vw; }
+}
+
+@keyframes sizedownS {
+    0% { width: 90vw; height: 80vh; }
+    100% { width: 45vw; height: 35vh; padding: 0; }
+}
+
+@keyframes sizeupM {
+    0% { width: 30vw; height: 40vh; }
+    100% { width: fit-content; height: fit-content; padding: 2vw; }
+}
+
+@keyframes sizedownM {
+    0% { width: 90vw; height: 70vh; }
+    100% { width: 30vw; height: 40vh; padding: 0;}
+}
+
+@keyframes sizeupL {
+    0% { width: 18vw; height: 35.5vh; }
+    100% { width: fit-content; height: fit-content; padding: 2vw;}
+}
+
+@keyframes sizedownL {
+    0% { width: 80vw; height: 70vh; }
+    100% { width: 18vw; height: 35.5vh; padding: 0;}
+}
+
+@keyframes fadeout {
+    0% { opacity: 1; }
+    100% { display: none; opacity: 0; }
+}
+
+@keyframes fadein {
+    0% { display: block; opacity: 0; }
+    100% {opacity: 1; }
+}
