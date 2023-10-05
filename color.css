@@ -1,0 +1,139 @@
+.green1 {
+  background-color: #D6EADF !important;
+}
+
+.green2 {
+  background-color: #98D6C1 !important;
+}
+.green2:hover {
+  background: linear-gradient(130deg, rgb(128, 155, 206) 5%, rgb(140, 212, 187) 17%, rgb(214, 234, 223) 30%, rgb(228, 173, 198) 50%, rgb(214, 234, 223) 70%, rgb(140, 212, 187) 82%, rgb(128, 155, 206) 95%);
+  background-size: 600% 100%;
+  animation: gradient 4s linear infinite;
+  text-decoration: none;
+}
+
+.green3 {
+  background-color: #98D6C1;
+}
+.green3:hover {
+  background-color: #EAC4D5 !important;
+}
+
+.green4 {
+  background-color: #98D6C1 !important;
+}
+
+.green5 {
+  background-color: #D6EADF !important;
+}
+.green5:hover {
+  background: linear-gradient(130deg, rgb(128, 155, 206) 5%, rgb(140, 212, 187) 17%, rgb(214, 234, 223) 30%, rgb(228, 173, 198) 50%, rgb(214, 234, 223) 70%, rgb(140, 212, 187) 82%, rgb(128, 155, 206) 95%);
+  background-size: 600% 100%;
+  animation: gradient 4s linear infinite;
+  text-decoration: none;
+}
+
+.lightblue1 {
+  background-color: #AECBEB !important;
+}
+
+.lightblue2 {
+  background-color: #71A5DE !important;
+}
+.lightblue2:hover {
+  background: linear-gradient(130deg, rgb(128, 155, 206) 5%, rgb(140, 212, 187) 17%, rgb(214, 234, 223) 30%, rgb(228, 173, 198) 50%, rgb(214, 234, 223) 70%, rgb(140, 212, 187) 82%, rgb(128, 155, 206) 95%);
+  background-size: 600% 100%;
+  animation: gradient 4s linear infinite;
+  text-decoration: none;
+}
+
+.lightblue3 {
+  background-color: #71A5DE;
+}
+.lightblue3:hover {
+  background-color: #EAC4D5 !important;
+}
+
+.lightblue4 {
+  background-color: #71A5DE !important;
+}
+
+.lightblue5 {
+  background-color: #AECBEB !important;
+}
+.lightblue5:hover {
+  background: linear-gradient(130deg, rgb(128, 155, 206) 5%, rgb(140, 212, 187) 17%, rgb(214, 234, 223) 30%, rgb(228, 173, 198) 50%, rgb(214, 234, 223) 70%, rgb(140, 212, 187) 82%, rgb(128, 155, 206) 95%);
+  background-size: 600% 100%;
+  animation: gradient 4s linear infinite;
+  text-decoration: none;
+}
+
+.purple1 {
+  background-color: #D4BBFC !important;
+}
+
+.purple2 {
+  background-color: #A17ADD !important;
+}
+.purple2:hover {
+  background: linear-gradient(130deg, rgb(128, 155, 206) 5%, rgb(140, 212, 187) 17%, rgb(214, 234, 223) 30%, rgb(228, 173, 198) 50%, rgb(214, 234, 223) 70%, rgb(140, 212, 187) 82%, rgb(128, 155, 206) 95%);
+  background-size: 600% 100%;
+  animation: gradient 4s linear infinite;
+  text-decoration: none;
+}
+
+.purple3 {
+  background-color: #A17ADD;
+}
+.purple3:hover {
+  background-color: #EAC4D5 !important;
+}
+
+.purple4 {
+  background-color: #A17ADD !important;
+}
+
+.purple5 {
+  background-color: #D4BBFC !important;
+}
+.purple5:hover {
+  background: linear-gradient(130deg, rgb(128, 155, 206) 5%, rgb(140, 212, 187) 17%, rgb(214, 234, 223) 30%, rgb(228, 173, 198) 50%, rgb(214, 234, 223) 70%, rgb(140, 212, 187) 82%, rgb(128, 155, 206) 95%);
+  background-size: 600% 100%;
+  animation: gradient 4s linear infinite;
+  text-decoration: none;
+}
+
+.peach1 {
+  background-color: #F8AD9D !important;
+}
+
+.peach2 {
+  background-color: #F08080 !important;
+}
+.peach2:hover {
+  background: linear-gradient(130deg, rgb(128, 155, 206) 5%, rgb(140, 212, 187) 17%, rgb(214, 234, 223) 30%, rgb(228, 173, 198) 50%, rgb(214, 234, 223) 70%, rgb(140, 212, 187) 82%, rgb(128, 155, 206) 95%);
+  background-size: 600% 100%;
+  animation: gradient 4s linear infinite;
+  text-decoration: none;
+}
+
+.peach3 {
+  background-color: #F08080;
+}
+.peach3:hover {
+  background-color: #EAC4D5 !important;
+}
+
+.peach4 {
+  background-color: #F08080 !important;
+}
+
+.peach5 {
+  background-color: #F8AD9D !important;
+}
+.peach5:hover {
+  background: linear-gradient(130deg, rgb(128, 155, 206) 5%, rgb(140, 212, 187) 17%, rgb(214, 234, 223) 30%, rgb(228, 173, 198) 50%, rgb(214, 234, 223) 70%, rgb(140, 212, 187) 82%, rgb(128, 155, 206) 95%);
+  background-size: 600% 100%;
+  animation: gradient 4s linear infinite;
+  text-decoration: none;
+}/*# sourceMappingURL=color.css.map */

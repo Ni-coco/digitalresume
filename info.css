@@ -1,0 +1,217 @@
+body {
+  font-family: "Dela Gothic One", cursive;
+  background-color: #D6EADF;
+  font-size: 1em;
+  margin: 0;
+}
+
+main {
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+main .profile {
+  margin: 2vh;
+  padding: 1vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .profile .name {
+  border: 4px solid black;
+  padding: 2vh 2vh 2vh 2vh;
+  background-color: #B8E0D2;
+  color: black;
+}
+main .profile .name:hover {
+  background: linear-gradient(130deg, rgb(128, 155, 206) 5%, rgb(140, 212, 187) 17%, rgb(214, 234, 223) 30%, rgb(228, 173, 198) 50%, rgb(214, 234, 223) 70%, rgb(140, 212, 187) 82%, rgb(128, 155, 206) 95%);
+  background-size: 600% 100%;
+  animation: gradient 4s linear infinite;
+  text-decoration: none;
+}
+main .profile .info {
+  border: 4px solid black;
+  padding: 2vh 3vh 2vh 3vh;
+  background-color: #B8E0D2;
+  color: black;
+}
+main .profile .info:hover {
+  background: linear-gradient(130deg, rgb(128, 155, 206) 5%, rgb(140, 212, 187) 17%, rgb(214, 234, 223) 30%, rgb(228, 173, 198) 50%, rgb(214, 234, 223) 70%, rgb(140, 212, 187) 82%, rgb(128, 155, 206) 95%);
+  background-size: 600% 100%;
+  animation: gradient 4s linear infinite;
+  text-decoration: none;
+}
+main footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  align-items: center;
+  border: 4px solid black;
+  background-color: #B8E0D2;
+}
+main footer .link {
+  margin: 1vh;
+  color: black;
+}
+main footer .link:hover {
+  text-decoration: none;
+  color: #809BCE;
+}
+main footer p {
+  margin: 1vh;
+}
+main footer p:hover {
+  color: #EAC4D5;
+}
+
+.centerinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  margin: 10px;
+}
+.centerinfo .more {
+  display: grid;
+  gap: 2vw;
+  align-self: center;
+}
+@media screen and (max-width: 800px) {
+  .centerinfo .more {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+}
+@media screen and (min-width: 801px) {
+  .centerinfo .more {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+.centerinfo .more .about {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  border: 4px solid black;
+  padding: 2vh 2vh 2vh 2vh;
+  background-color: #809BCE;
+  color: black;
+}
+@media screen and (max-width: 800px) {
+  .centerinfo .more .about {
+    grid-column: 1/3;
+    grid-row: 2;
+  }
+}
+@media screen and (min-width: 801px) {
+  .centerinfo .more .about {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+}
+.centerinfo .more .linkto {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  border: 4px solid black;
+  padding: 2vh 2vh 2vh 2vh;
+  background-color: #EAC4D5;
+  color: black;
+}
+@media screen and (max-width: 800px) {
+  .centerinfo .more .linkto {
+    grid-column: 3;
+    grid-row: 2;
+  }
+}
+@media screen and (min-width: 801px) {
+  .centerinfo .more .linkto {
+    grid-column: 3/4;
+    grid-row: 1;
+  }
+}
+.centerinfo .more .linkto a {
+  color: black;
+}
+.centerinfo .more .linkto a:hover {
+  text-decoration: none;
+  color: #809BCE;
+}
+.centerinfo .more .contact {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  border: 4px solid black;
+  padding: 2vh 2vh 2vh 2vh;
+  background-color: #B8E0D2;
+  color: black;
+}
+@media screen and (max-width: 800px) {
+  .centerinfo .more .contact {
+    grid-column: 1/4;
+    grid-row: 3;
+  }
+}
+@media screen and (min-width: 801px) {
+  .centerinfo .more .contact {
+    height: -moz-fit-content;
+    height: fit-content;
+    grid-column: 1/3;
+    grid-row: 2;
+  }
+}
+.centerinfo .more .contact .to {
+  color: black;
+}
+.centerinfo .more .contact .to:hover {
+  color: #809BCE;
+  text-decoration: none;
+}
+.centerinfo .more .profilepic {
+  width: 20vw;
+  display: flex;
+  height: -moz-fit-content;
+  height: fit-content;
+  border: 4px solid black;
+  border-radius: 50%;
+}
+@media screen and (max-width: 800px) {
+  .centerinfo .more .profilepic {
+    width: 35vw;
+    grid-column: 2;
+    grid-row: 1;
+  }
+}
+@media screen and (min-width: 801px) {
+  .centerinfo .more .profilepic {
+    grid-column: 4;
+    grid-row: 1;
+  }
+}
+.centerinfo .more .news {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  border: 4px solid black;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 2vh 2vh 2vh 2vh;
+  background-color: #95B8D1;
+  color: black;
+}
+@media screen and (max-width: 800px) {
+  .centerinfo .more .news {
+    grid-column: 1/4;
+    grid-row: 4;
+  }
+}
+@media screen and (min-width: 801px) {
+  .centerinfo .more .news {
+    grid-column: 3/5;
+    grid-row: 2;
+  }
+}/*# sourceMappingURL=info.css.map */
