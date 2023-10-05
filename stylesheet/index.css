@@ -1,6 +1,5 @@
 body {
   font-family: "Dela Gothic One", cursive;
-  background-color: #D6EADF;
   font-size: 1em;
   margin: 0;
 }
@@ -184,11 +183,6 @@ main .content .card div .lcard_container .lcard .text_container .sub_text {
   margin: 2vh 2vw 2vh 2vw;
   text-align: left;
   font-size: 0.8em;
-}
-main .content .card div .lcard_container .lcard:hover {
-  background: linear-gradient(130deg, rgb(128, 155, 206) 5%, rgb(140, 212, 187) 17%, rgb(214, 234, 223) 30%, rgb(228, 173, 198) 50%, rgb(214, 234, 223) 70%, rgb(140, 212, 187) 82%, rgb(128, 155, 206) 95%);
-  background-size: 1800% 100%;
-  animation: gradient 10s linear infinite;
 }
 main .content .card div .vid {
   flex-direction: column;

@@ -1,6 +1,5 @@
 body {
     font-family: 'Dela Gothic One', cursive;
-    background-color: #D6EADF;
     font-size: 1em;
     margin: 0;
 }
@@ -163,12 +162,6 @@ main {
                                 text-align: left;
                                 font-size: 0.8em;
                             }
-                        }
-                        &:hover {
-                            background: linear-gradient(130deg, rgba(128,155,206,1) 5%, rgba(140,212,187,1) 17%, rgba(214,234,223,1) 30%, rgb(228, 173, 198) 50%,
-                            rgba(214,234,223,1) 70%, rgba(140,212,187,1) 82%, rgba(128,155,206,1) 95%);
-                            background-size: 1800% 100%;
-                            animation: gradient 10s linear infinite;
                         }
                     }
                 }

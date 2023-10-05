@@ -44,6 +44,38 @@ main .profile .info:hover {
   animation: gradient 4s linear infinite;
   text-decoration: none;
 }
+main .color_change {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+main .color_change div {
+  width: 20px;
+  height: 20px;
+  border: 3px solid black;
+  transform: scale(1);
+  transition: all 200ms;
+}
+main .color_change div:hover {
+  transform: scale(1.2);
+}
+main .color_change .green {
+  background-color: #D6EADF;
+  border-radius: 50%;
+}
+main .color_change .lightblue {
+  background-color: #AECBEB;
+  border-radius: 50%;
+}
+main .color_change .purple {
+  background-color: #D4BBFC;
+  border-radius: 50%;
+}
+main .color_change .peach {
+  background-color: #F8AD9D;
+  border-radius: 50%;
+}
 main footer {
   display: flex;
   justify-content: space-between;

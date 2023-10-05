@@ -49,6 +49,44 @@ main {
         }
     }
 
+    .color_change {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+
+        div {
+            width: 20px;
+            height: 20px;
+            border: 3px solid black;
+            transform: scale(1);
+            transition: all 200ms;
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+
+        .green {
+            background-color: #D6EADF;
+            border-radius: 50%;
+        }
+
+        .lightblue {
+            background-color: #AECBEB;
+            border-radius: 50%;
+        }
+
+        .purple {
+            background-color: #D4BBFC;
+            border-radius: 50%;
+        }
+
+        .peach {
+            background-color: #F8AD9D;
+            border-radius: 50%;
+        }
+    }
+
     footer {
         display: flex;
         justify-content: space-between;
