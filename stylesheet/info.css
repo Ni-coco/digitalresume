@@ -43,7 +43,7 @@ main .color_change {
 }
 @media screen and (min-width: 801px) {
   main .color_change {
-    top: -100px;
+    top: -60px;
   }
 }
 main .color_change div {
