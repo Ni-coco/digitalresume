@@ -55,7 +55,6 @@ function remove(current) {
         return;
     
     document.querySelector("body").classList.remove(current + "1");
-    document.querySelector(".title").classList.remove(current + "1");
     document.querySelector(".name").classList.remove(current + "2");
     document.querySelector(".info").classList.remove(current + "2");
     document.querySelector("footer").classList.remove(current + "2");
